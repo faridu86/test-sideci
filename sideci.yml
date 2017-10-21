@@ -1,0 +1,9 @@
+linter:
+  eslint:
+    root_dir: app
+    npm_install: true
+    options:
+      config: '.eslintrc.js'
+      ext: 'js,jsx, es6'
+      ignore-path: .gitignore
+      no-ignore: app.js
