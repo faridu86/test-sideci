@@ -3,7 +3,7 @@ linter:
     root_dir: app
     npm_install: true
     options:
-      config: '.eslintrc.js'
+      config: 'app/.eslintrc.json'
       ext: 'js,jsx, es6'
       ignore-path: .gitignore
       no-ignore: app.js
